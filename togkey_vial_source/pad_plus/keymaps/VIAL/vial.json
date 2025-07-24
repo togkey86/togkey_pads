@@ -1,0 +1,51 @@
+{
+    "customKeycodes": [
+        {
+            "name": "TOGLAY",
+            "title": "Toggle Layers",
+            "shortName": "TOG_LAY"
+        }
+    ],
+    "matrix": {
+        "rows": 3,
+        "cols": 3
+    },
+    "lighting": "qmk_rgblight",
+    "vial": {
+        "midi": "advanced"
+    },
+    "layouts": {
+        "keymap": [
+            [
+                {
+                    "y": 0.25,
+                    "x": 1.5
+                },
+                "0,0\n\n\n\n\n\n\n\n\ne",
+                "0,1\n\n\n\n\n\n\n\n\ne"
+            ],
+            [
+                {
+                    "x": 2
+                },
+                "0,2"
+            ],
+            [
+                {
+                    "y": 0.25
+                },
+                "1,0",
+                "1,1",
+                "1,2"
+            ],
+            [
+                {
+                    "y": 0.25
+                },
+                "2,0",
+                "2,1",
+                "2,2"
+            ]
+        ]
+    }
+}
