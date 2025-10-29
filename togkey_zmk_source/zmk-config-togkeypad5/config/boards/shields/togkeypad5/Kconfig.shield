@@ -1,0 +1,3 @@
+config SHIELD_PADBT
+    def_bool $(shields_list_contains, pad_bt)
+    

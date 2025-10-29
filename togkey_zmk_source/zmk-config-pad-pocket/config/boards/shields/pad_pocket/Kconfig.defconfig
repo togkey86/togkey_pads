@@ -1,0 +1,6 @@
+if SHIELD_PADPOCKET
+
+config ZMK_KEYBOARD_NAME
+    default "Pad Pocket"
+
+endif

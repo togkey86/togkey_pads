@@ -1,0 +1,6 @@
+#include "pad_pocket.dtsi"
+
+&kscan {
+    col-gpios = <&xiao_d 0 GPIO_ACTIVE_HIGH>, 
+                <&xiao_d 8 GPIO_ACTIVE_HIGH>;
+};
