@@ -1,6 +1,0 @@
-if SHIELD_PADBT
-
-config ZMK_KEYBOARD_NAME
-    default "Pad BT"
-
-endif
