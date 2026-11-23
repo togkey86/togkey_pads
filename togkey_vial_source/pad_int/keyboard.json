@@ -1,0 +1,63 @@
+{
+    "manufacturer": "TogKey",
+    "keyboard_name": "Pad int",
+    "maintainer": "togkey86",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "encoder": {
+        "rotary": [
+            {"pin_a": "GP10", "pin_b": "GP11", "resolution": 4},
+            {"pin_a": "GP12", "pin_b": "GP13", "resolution": 4}
+        ]
+    },
+    "features": {
+        "bootmagic": true,
+        "encoder": true,
+        "extrakey": true,
+        "mousekey": true,
+        "rgb_matrix": true,
+        "oled": true
+    },
+    "matrix_pins": {
+        "cols": ["GP24", "GP23", "GP21", "GP20", "GP27"],
+        "rows": ["GP26", "GP25", "GP22", "GP19", "GP18"]
+    },
+    "url": "https://togkey.com/products/togkey-pad-int-edition-01",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x8787",
+        "vid": "0xFEED"
+    },
+    "ws2812": {
+        "driver": "vendor",
+        "pin": "GP28"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [0, 3], "x": 3, "y": 0},
+                {"matrix": [0, 4], "x": 4, "y": 0},
+                {"matrix": [1, 0], "x": 0, "y": 1},
+                {"matrix": [1, 1], "x": 1, "y": 1},
+                {"matrix": [1, 2], "x": 2, "y": 1},
+                {"matrix": [1, 3], "x": 3, "y": 1},
+                {"matrix": [1, 4], "x": 4, "y": 1},
+                {"matrix": [2, 0], "x": 0, "y": 2},
+                {"matrix": [2, 1], "x": 1, "y": 2},
+                {"matrix": [2, 2], "x": 2, "y": 2},
+                {"matrix": [2, 3], "x": 3, "y": 2},
+                {"matrix": [3, 0], "x": 0, "y": 3},
+                {"matrix": [3, 1], "x": 1, "y": 3},
+                {"matrix": [3, 2], "x": 2, "y": 3},
+                {"matrix": [3, 3], "x": 3, "y": 3},
+                {"matrix": [4, 0], "x": 0, "y": 4},
+                {"matrix": [4, 1], "x": 1, "y": 4},
+                {"matrix": [4, 2], "x": 2, "y": 4}
+            ]
+        }
+    }
+}

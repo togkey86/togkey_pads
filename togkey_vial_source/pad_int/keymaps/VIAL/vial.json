@@ -1,0 +1,41 @@
+{
+    "customKeycodes": [
+        {
+            "name": "LAYERDOWN",
+            "title": "Layer DOWN",
+            "shortName": "Layer-"
+        },
+        {
+            "name": "LAYERUP",
+            "title": "Layer Up",
+            "shortName": "Layer+"
+        },
+        {
+            "name": "MODE",
+            "title": "Toggle Mode",
+            "shortName": "Mode"
+        },
+        {
+            "name": "NUM00",
+            "title": "00",
+            "shortName": "Num 00"
+        }
+    ],
+    "matrix": {
+        "rows": 5,
+        "cols": 5
+    },
+    "lighting": "vialrgb",
+    "vial": {
+        "midi": "advanced"
+    },
+    "layouts": {
+        "keymap": [
+            ["0,0", "0,1", "0,2", "0,3", {"x": 0.5}, "0,4", "0,0\n\n\n\n\n\n\n\n\ne", "0,1\n\n\n\n\n\n\n\n\ne"],
+            ["1,0", "1,1", "1,2", "1,3", {"x": 0.5},"1,4", "1,0\n\n\n\n\n\n\n\n\ne", "1,1\n\n\n\n\n\n\n\n\ne"],
+            ["2,0", "2,1", "2,2", "2,3"],
+            ["3,0", "3,1", "3,2", { "h": 2 }, "3,3"],
+            ["4,0", "4,1", "4,2"]
+        ]
+    }
+}
